@@ -1,0 +1,146 @@
+Kaj Van De Loo 1:43
+Hello, are you good are you? Good?
+
+Adam Rencher 1:49
+Okay, so you're gonna have to tell me how to say your name. It's the first time I've seen it.
+
+Unknown Speaker 1:53
+Okay. Hi. Hi. Hi. Yeah. Hi. Thanks for asking. I'm just guessing at something.
+
+Adam Rencher 2:02
+Yeah, you know, I could have guessed but my guess is I'm gonna put your bid. So that's why I asked.
+
+Kaj Van De Loo 2:08
+Yeah, that was good. No, I'm used to I came to the US, I think, in 1996, whatever that is now. 2827 years ago. Yeah. And
+
+Kaj Van De Loo 2:18
+people would say cars and like I would not understand like my ears. Were not listening to that sound like it would not understand whom they meant. And so thanks for asking. Yeah,
+
+Unknown Speaker 2:33
+No worries. Where are you at right now? It looks beautiful.
+
+Kaj Van De Loo 2:37
+In San Francisco, right? Sorry for walking around while talking to you. I just had to get out of the house. I've been on the back meeting since 6am. And I need to take the opportunity to get some sunlight. The sun. Exactly.
+
+Adam Rencher 2:49
+Apostle You said you came to us and 96 Where are you from? Originally?
+
+Kaj Van De Loo 2:55
+Sweden, Sweden. Cool. Yes. Yeah, a friend of mine who are sitting. She lie above Tokyo somewhere. No,
+
+Adam Rencher 3:05
+No. I mean, that's just my background. No, we're in we're in Provo, Utah.
+
+Unknown Speaker 3:12
+Oh, cool. I was just snowed there this year.
+
+Adam Rencher 3:20
+No, it's It's good. Um, last year was I think better last year was like a record breaking year in terms of snowfall, but we've had some good we've had some good snow some good storms coming in. The skiing is pretty good. I don't know if you ever get out here and get on the slopes but it's a good time.
+
+Kaj Van De Loo 3:33
+Yeah, I've been a number of times and we, we used to go we have this ski week thing here. I've got a 10 year old son. And he's so we we used to go to to see some friends in Deer Valley every year. But not the past two years or so. We've stayed out here. We went to Jackson Hole this year as we were spent half the week in Jackson Hole and half the week up until but I missed the Utah powder.
+
+Adam Rencher 4:06
+Yeah, it's fantastic. It's fantastic. I might be a little I feel like I've never been to Sweden but I hear it's very cold
+
+Kaj Van De Loo 4:15
+and gets cold skiing is pretty horrible. We don't have any toll and or steep mountains and for what's there it gets so cold and windy that it doesn't snow a whole lot and then the wind just returns the whatever snow there is into ice so it's a little bit like skiing on the East Coast. Not much to strive for. It's beautiful. Otherwise, don't hesitate to go just don't go for ski
+
+Adam Rencher 4:46
+and just go for skiing. Got it? Um no, that's awesome. So a little bit of context KY as to kind of you know why? Why we reached out so right now I'm we're both students at BYU. Um, and we're in basically BYU has a university led startup incubator. So right now we're looking into we're trying to build essentially an AI first platform to manage cloud costs. So we're just we've just been meeting with different small and medium sized businesses, both kind of in the Bay Area and here locally around Lehigh and just trying to get an idea of what it is that people are doing to kind of manage cloud costs as is whether it's internal fixes or products that they're using. We just kind of want to understand the problem deeper, and just kind of elevate our understanding there so we can you know, best, best build a solution that you know, will hopefully provide an alleviation of some level of pain in the future. So we just love to hear from you about like, you know, a little bit about us about user testing kind of your experience there. Maybe there's some additional context you can provide as to what how you guys kind of approach infrastructure and managing it and then some of the things you guys are doing to you know, control costs.
+
+Kaj Van De Loo 5:58
+Yeah. Do you want me to just give you a bit of background on
+
+Adam Rencher 6:05
+background for because I I've heard about people around but I don't probably know, obviously know the process as well as you do, obviously. So so.
+
+Kaj Van De Loo 6:13
+Yeah. So user testing has been around for maybe about 20 years now, was actually one of the AWS launch partners. When AWS launched user testing was one of the early customers and got some credits. I think they got $15,000 worth of AWS credits. That lasted for six months or so. Now, I think we burned that the duration of this call probably, but they spin like a cloud. Infrastructure native solution, all almost since its inception, where today about 300 million revenue, just shy of 1000 employees. And about a year ago, user testing was acquired by Thoma Bravo the private equity company, and has been and we got merged with UserZoom who was our number one competitor. I also was big on AWS so we have spent last year very much focused on the merger, cleaning up the infrastructure to relatively messy AWS platforms that we have now made a clean one out of that we will think we've laid a good foundation for the next few years. But 2023 was a bit of a mess and this is perfect timing. We just spent an hour, hour and a half earlier today going through our AWS costs, because during the merger, so we're in a little bit of a special situation. At the moment is what I'm trying to get to that because of the merger and in the merger we prioritized speed over efficiency said it's better get the merger done and then we can we can cut costs later. So we said let's make sure we get through the merger quickly we basically left each of the existing platforms as they are each of the existing AWS accounts, created a new one, set it up the way we want it to be and just accepted the fact that we'll be paying for for the totality for a little while until we get the workloads moved to the new one and can start decommissioning the old ones. So we're in a little special, special phase on the other hand, I think that applies to most companies of our size are going to be making acquisitions every now and then. Which is an interesting thing. Yeah, it feels like AWS still is not particularly well set up for for this like higher level account management, like how do you move things between accounts, how do you consolidate accounts, how do you separate accounts? Not easy to do? So, yeah, but anyway, yeah, that's where we are today. As I said, 300 million revenue, just a little bit less than 1000 employees. We've got we have a need for data centers in different regions. So we have customers in the US who want the data in the US. We have customers in Europe who want the data in Europe. Some customers in Asia, who want the data in Asia, but they have to wait a little because we don't do that yet. We're big, we use AWS across the board. No, Azure no GCP in any of our work go forward areas. So some minor acquisitions, we ended up with a little bit of GCP stuff, but we're trying to get rid of that. Okay, does that help? Paint a bit of a picture? Background? Yeah.
+
+Adam Rencher 10:51
+So it sounds like you guys are pretty centralized on mostly all in like you all your eggs are in AWS right now. It sounds like Yes. Okay. And then what is your workload look like right now? Like in terms of skill?
+
+Kaj Van De Loo 11:06
+We I wish I would have memorized some sad some numbers from this morning. I don't really know. The a big part of of our cost is storage. I don't know how much of it is storage but from what we do as a business. It generates a lot of video a lot of other data as well, but primarily it's the video that takes up space. And I think we've we're at
+
+Kaj Van De Loo 11:43
+2025 petabytes, maybe of video storage. And I think s3 alone makes up between 35 and 40% of our AWS bill. We tell them
+
+Kaj Van De Loo 12:00
+at the moment for this year, we're going to be paying AWS like about four and a half million out of which I think for maybe is direct AWS consumption, and the remainder is things we buy through the AWS Marketplace, which is like other vendors that we buy through AWS.
+
+Adam Rencher 12:26
+Yeah. Okay, that's awesome. And then you mentioned that's kind of realistically what you're looking like in terms of usage. But as far as like what are you doing internally to be able to, like, manage and like control potential overspending, like what do you guys have in place? You said when it came to the merger, you were focused mostly on speed. But I guess what's on the roadmap in terms of how do you make your infrastructure more efficient, and how do you kind of control and set like barriers on that? Cost? You
+
+Kaj Van De Loo 12:52
+don't exceed expectations? I think the so there's a couple of before we get to that. We're happy to talk about that. But I think there's some other things worth considering. Excuse me. Yeah, I got a bit of a cold over ski week here. Apologies for that. So interesting thing that may not matter that much, or it doesn't matter at all for the wheel costs, but that still is kind of important to understand how companies account for this, that
+
+Kaj Van De Loo 13:35
+you know, the, the part of the AWS costs that are needed to just keep the product running. Say we would fire every salesperson we will fire all the developers we would just keep the product running and charge our customers for that. That goes to my cost of goods sold in the profit and loss statement. So that's pretty high up in the p&l while all this stuff we do to develop software to notice QA stacks and staging stacks and pen testing stacks and God knows what that goes to r&d Spend further down in the p&l. So the those two things are treated very differently from an accounting perspective. And that matters somewhat for most companies. The way they plan for these things is that you often that your cost of goods sold just go with revenue. So you fully expect that like, if you double your revenue, your cost of goods sold goes up doubly, and you just maintain your operating margin. And you're you're fine at least more mature companies. So the Porsche that portion of the costs, there isn't a whole lot of pressure on so like all this stuff that simply in droves because the business volume goes to what the activity of our customers on the platform doesn't is not that easy. There's one kind of financially there's kind of one kind of focus on that. Then all the stuff that goes to r&d, like the things we do because we like it, because it makes us more efficient and in r&d, and because it's fun to develop machine learning models, and God knows what, that has a little bit more focus on it. And the US has a different kind of focus. That's kind of we do a lot of budgeting on that level. It's a little harder sometimes to predict the business kills. So everything that goes to cost of goods sold. It's like a little bit like yeah, it's great revenue doubled in a year. So the AWS costs are just gonna follow but that's a good thing for the company. If our r&d Spend suddenly would double, that would not be a good thing at all. So that's something to keep in mind. And it's something I find many people in
+
+Kaj Van De Loo 16:28
+like ops and infrastructure hills and, and lots of even VP engineering and CTOs don't quite understand this. So they're very
+
+Kaj Van De Loo 16:39
+specifically focused on like the total AWS bill, which I think if you're trying to build some kind of cost management cost optimization solution, there is a difference between the part of the AWS spend that is used to just keep the business going.
+
+Kaj Van De Loo 16:58
+Largely should be following your business volume versus the remaining spend. Does that make sense?
+
+Adam Rencher 17:07
+No, that's that's an interesting point of feedback there guys. We haven't we haven't heard that because I actually don't think most people are thinking about it. There is a distinct difference between just saving you know, like 10 to 15% monthly versus stripping away, you know, maybe some instances, some infrastructure that you might actually need this for the long term sustainability of your business. So I think that's a good distinction there. I appreciate that feedback.
+
+Kaj Van De Loo 17:31
+So for us, and this is now the second time in Ohio I'm asked about this kind of mid sized company entirely on AWS. The biggest difficulty. Still, to this day, I've been with user testing for about five years. The biggest difficulty still is to understand our spend to understand all the tagging and stuff you can do is largely like I mean it's all manual, it all takes a lot of work to figure out first how you want to tag things and then tag them. And then if you ever change your mind on how you want to analyze it, you're you've lost of course because then you have to put new tags and you don't get any historical data with new tagging. So that I find it's like super basic, but I find it's always been difficult to actually see. For example this like okay this system is part of cost of goods sold. While this system is part of r&d. That makes it that's pretty hard, but they are. They're like physically separate we use Eks now so even there, it's like an entirely different class clusters used to it's relatively easy like Logically, if I pick up anything in our AWS environment, I can tell you where it goes in the p&l, but we've never it's not tagged properly based on that date. I think it's very typical in companies of our size and maturity, I guess of many others as well. Is that you get enthusiastic you start tagging your stuff. You look at your data, you go like Oh shit, this is doesn't give me the answer to the question I have now. What my CFO asked me yesterday. So you start putting more tags on and at some point you have a complete mess with all your tags and it's difficult just to see what's going on. So that I think is like somehow the most fundamental level, I think, at least, the companies I've been with, we've never had good hygiene on that.
+
+Adam Rencher 20:01
+It's all about Yeah, like, like I hear what you're saying. You're like it's about hygiene. And then I think you're kind of alluding as well to maybe there's like an education piece. That might be you know, understanding your cloud and how cost is flowing through your infrastructure and beyond just what it service isn't what you're paying for, like understanding how that kind of affects the bigger picture, right?
+
+Kaj Van De Loo 20:23
+Yes, yes, all of that. And then I think like part of the solution might be being able to go in and independently of what's happening in AWS, maybe being able to tag
+
+Kaj Van De Loo 20:40
+categories of spend in such a way that that if you're building some kind of analysis optimization tool, that it could go back in time and actually say okay, whatever this part of the storage is
+
+Kaj Van De Loo 20:57
+part of cost of goods sold it's maybe powering a particular product, it's built by a particular team, whatever the tagging is, and being able to go to be able to change that and say, okay, and apply this to the historical data as well. Because that I've always found is so difficult when when we decide to implement some kind of new tagging and a new way to slice and dice the data. It only applies from now going forward. So we're typically trying to answer a backwards looking question by changing something that only works going forward. Yeah.
+
+Adam Rencher 21:35
+Yeah. Now that that makes sense. That's a really good piece of feedback, I guess, kind of Lastly, is there anything that kind of, you know, as we're thinking about, kind of cloud costs and infrastructure management, anything in your experience that you think that we should be thinking about that we're not already kind of you know, that's not already top of mind? Is there anything that you're like? This is the single largest thing that's painful related to cloud cost, and managing our infrastructure for us like you should think about this?
+
+Kaj Van De Loo 22:09
+One thing that's kind of a little tricky is when you're venturing into new areas and using new cloud services that you've never used before. Kind of how to think about that. Now we've been doing we built a data platform and a machine learning pipeline five years ago, so like, machine learning is not new to us. But that's still an area like as we are shifting, strategically, a lot of our the whole product development more and more product features are going to be powered by machine learning. A lot of the innovation comes out of machine learning
+
+Kaj Van De Loo 22:55
+and which has a very different cost profile. It now suddenly like if you just do the run of the mill Java development, you don't have a whole lot of upfront costs. Sure you have your dev instances may be in the cloud, you have no QA or staging. That's fine, but it's very easy to predict when you do machine learning, development or AI development as people will call it today. You suddenly have maybe huge upfront costs, but relatively moderate runtime costs. And this whole profile changes and I think the same is often to when you kind of start using new services in the cloud, and as AWS or any cloud provider kind of keeps coming up with more capabilities, more services, it's really difficult to estimate stuff that you don't have a good baseline for and it can can become significant quickly and especially on the machine learning side, of course, that if you start doing a lot of experimentation, your machine learning costing just explode. And it's hard
+
+Kaj Van De Loo 24:06
+to predict. So I think some kind of benchmarking best practices would be great if there was some kind of cost estimator where you would enter, like, Hey, I'm trying to build and train a model. This is the complexity of the model. This is the amount of data I think something that would have when you venture into new areas that would help you estimate the costs of it. And I think there are many people I guess now there are a lot of people scrambling to do AI development who are gonna be quite surprised when they look at their next AWS bill or whatever cloud provider they use, and they go oh, shit, I didn't know it's so expensive.
+
+Unknown Speaker 24:53
+Certainly.
+
+Kaj Van De Loo 24:57
+So that's maybe one thing but in general, we're trying now like for us this year, will be more of a year of efficiency. And there's also I don't think we're the only ones who have a messy AWS set up. I'm sure everybody does one way or the other. And that's also an interesting like, we can sit down
+
+Kaj Van De Loo 25:25
+with our our experience and our expertise to look at like our AWS landscape, how everything hangs together. Were there redundancies, and we can kind of start saying, Okay, if we move this there, we turn these two things off. We're going to be able to reduce costs, but it's a lot of like manual work and it all needs to go the tons of spreadsheets involved and lots of Excel work. So that's also something like some kind of higher level system, visualization system analysis, which components do what in the system are there things that are hidden and write that like high level the stuff we do on a whiteboard today, and then somebody takes it from the whiteboard into a slide and then we, we sit and we look at it and we say like, Hey, we can get rid of that? I think that would be would be very helpful. I don't know how to do it, how to understand which works workloads and are the same or anything but that would be very, at that high level. It's completely manual now. Yes.
+
+Adam Rencher 26:36
+Yeah. No, that's, that's interesting. Thank you so much. For your feedback. I know you're out kind of a walk and we chewed up a little bit of your free time, but we very much appreciate it. And we're, we're looking to we're looking to launch an MVP March 1. And you know, as we start to have demos and stuff out, we'd love to, you know, chat with you and your team and just get some feedback so we can know that you know, maybe we're headed in a good direction. Like we'd love to be, you know, educated and moving forward rather than uneducated and just, you know, guessing. So we really appreciate your time. And we'd love to continue to you know, stick in the future as well. Yep.
+
+Kaj Van De Loo 27:13
+Yeah, yeah. No, let's stay in touch. If you have something that's, you know, you want us to look at, I'd be happy to invite our obsidian team who works on this day in and day out. Have them included if you want. And if you start moving towards characterization, and you want some user feedback, on it, you know, we can give you a free trial account on user testing if you have something specific.
+
+Unknown Speaker 27:45
+You guys want you guys are the perfect product. Yeah,
+
+Kaj Van De Loo 27:48
+no. So be happy to hook you up with a free trial account. Once you feel you have something that you really want people's feedback on.
+
+Adam Rencher 27:59
+Yeah, I know for sure. Certainly. Ty, thank you so much. Again, have a great rest of your walk and rest of your day and we'll we'll be in touch.
+
+Unknown Speaker 28:06
+Thank you. Have a good one. Hey, see you too. Bye. Bye.

@@ -1,0 +1,23 @@
+customer-feedback-analysis/
+│
+├── data/                             # Directory to store call transcripts and other raw data
+│   ├── example_call_transcript.pdf   # Example PDF file (since we're working with PDFs now)
+│   └── ...
+│
+├── notebooks/                        # Directory for Jupyter notebooks
+│   ├── exploration.ipynb             # Notebook for data exploration and testing
+│   └── ...
+│
+├── src/                              # Source code directory
+│   ├── __init__.py                   # Makes src a package
+│   ├── chunking.py                   # Script for text chunking logic
+│   ├── embedding.py                  # Script for embedding logic and similarity search
+│   ├── database.py    
+│   ├── rag_pipeline.py               # Script for the RAG pipeline
+│   ├── utils.py                      # Script for utility functions (including speaker labeling)
+│
+├── environment.yml                   # Conda environment configuration file
+├── requirements.txt                  # Optional, for pip requirements
+├── app.py                            # Main application script
+├── streamlit_app.py                  # Streamlit front-end script
+└── README.md                         # Project documentation

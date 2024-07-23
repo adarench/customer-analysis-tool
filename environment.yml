@@ -1,0 +1,24 @@
+name: customer-feedback-analysis
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - pyannote.audio
+  - langchain
+  - rich
+  - pydantic
+  - huggingface_hub
+  - chromadb
+  - pip:
+      - openai
+      - langchain_openai
+      - langchain_core
